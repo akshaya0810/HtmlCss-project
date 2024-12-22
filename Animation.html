@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <style>
+    body{
+        background-color: black;
+    }
+    /* Styling for the big circle */
+    .big-circle {
+      width: 200px;
+      height: 200px;
+      /* background-color: red; */
+      border-radius: 50%;
+      position: absolute;
+      top: 50%; 
+      left: 70%; 
+      transform: translate(-50%, -50%);
+      animation: changeColor 8s infinite; 
+    }
+
+    /* Styling for the small circle */
+    .small-circle {
+      width: 50px;
+      height: 50px;
+      /* background-color: red; */
+      border-radius: 50%;
+      position: absolute;
+      top: 50%; 
+      left: 10%; 
+      transform: translate(0, -50%);
+      animation: move 4s infinite alternate, changeColor 8s infinite; 
+     }
+
+    /* Animation for color change */
+    @keyframes changeColor {
+      0%   { background-color: red; }
+      35%  { background-color: yellow; }
+      50%  { background-color: blue; }
+      55% { background-color: green; }
+    }
+
+    /* Animation for horizontal movement of the small circle */
+    @keyframes move {
+      0% { left: 45%; }  
+      100% { left: 90%; } 
+    }
+    
+    
+  </style>
+</head>
+<body>
+
+<div class="big-circle"></div>
+
+<div class="small-circle"></div>
+
+</body>
+</html>

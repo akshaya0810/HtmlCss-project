@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        label::after
+        {
+          content: "*";
+          color: red;
+        }
+        p::first-letter
+        {
+            color: red;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>First name:</label><br>
+        <input type="text">
+    </form>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae animi debitis quibusdam temporibus repudiandae repellendus ipsam. Commodi, repellendus. Accusantium doloremque distinctio praesentium deleniti cumque earum laudantium illum ipsam, nemo expedita.</p>
+    
+</body>
+</html>

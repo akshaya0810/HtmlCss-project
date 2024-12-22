@@ -1,0 +1,323 @@
+header {
+    padding: 20px;
+}
+
+.logo-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.addit {
+    float: right;
+    padding: 10px;
+}
+
+.search-container {
+    display: inline-block;
+    position: relative;
+}
+
+.search-container img {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 100%; 
+    cursor: pointer;
+}
+
+.rect li{
+    margin: 20px 0;
+    padding: 5px;
+    width:98%;
+    background-color: gray;
+}
+
+.navi2 {
+    clear: both;
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    
+
+}
+.navi2 li{
+    float:left;
+}
+.navi2 li a{
+    display:block;
+    text-decoration: none;
+    background-color: rgba(222, 221, 221, 0.39);
+    color:black;
+    height:15px;
+    width:100%;
+    padding-right: 90px;
+    padding-left:90px;
+    padding-top:15px;
+    padding-bottom:4px;
+}
+
+
+li a.active2{
+    
+    background-color: rgb(210, 230, 230);
+}
+li a.active3{
+    background-color:  #007cc0;
+    color: #ffffff;
+}
+li a.active4{
+    background-color: #ffffff;
+}
+li a.active5{
+    background-color: #ffffff;
+}
+ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ol li {
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#crtt{
+    background-color: rgb(9, 109, 148);
+    color: white;
+    padding: 5px;
+}
+
+
+
+#fee img{
+    position: absolute;
+  
+    padding: 0;
+    width: 250px;
+    height: 25px;
+ 
+}
+
+#ab {
+    height: 325px;
+    width: 240px;
+    background-color: skyblue;
+    float: right;
+    margin-right: 20px;
+}
+#ab p{
+    padding-left: 10px;
+    word-spacing: 0;
+    line-height:1;
+}
+h6{
+    float: inline-end;
+    margin:0;
+ 
+    display: flex;
+    justify-content: end;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#bc {
+    position: relative;
+    display: inline-block;
+}
+
+#bc img {
+    float: right;
+    width: 240px;
+    margin-right: 20px;
+}
+
+#bc h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    padding-bottom: 80px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 70px; 
+    font-weight: bold; 
+}
+
+
+.imageset img {
+    max-width: 20px;
+    max-height: 80px;
+    padding: 2px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.signup-container input[type="text"] {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.signup-container input[type="submit"] {
+    padding: 5px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+}
+table {
+ 
+ 
+    width: 79%;
+    height: 500px;
+  
+  border-bottom: 0 solid grey;
+    float: left; 
+    table-layout: fixed; 
+}
+
+td {
+   
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-align: center; 
+    vertical-align: middle; 
+    width: 25%; 
+    height: 100px; 
+}
+#acns{
+    color:white;  
+    background-color: skyblue;
+    height:"30px";
+  width:"20px";
+  border: none;
+  text-align: center;
+}
+table td img {
+    max-width: 80px;
+    max-height: 70px;
+}
+ table tr:nth-child(odd) {
+    background-color: #EEEDEB; 
+    border: none;
+}
+
+
+
+.boxes p {
+    margin: 0;
+    padding-left:10px ;
+    line-height: 1.2; 
+    word-spacing: 3; 
+    
+}
+
+h5{
+    margin-top: 10px;
+    margin-left: 10px;
+  
+}
+
+
+#corrupt img {
+    max-width: 30px;
+    max-height: 50px;
+    margin-right: 10px; 
+}
+
+#corrupt p {
+    color: navy;
+}
+
+
+.footer{
+    background-color: skyblue;
+    height: 255px;
+    width: 100%;
+    clear: both;
+
+}
+
+
+.craft {
+   
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    float: left; 
+}
+
+#corrupt {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+
+.boxes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin: 0;
+    margin-top: 10px;
+    padding-left: 250px;
+ text-wrap: nowrap;
+    padding: 20px; 
+   
+    width: 50%; 
+}
+
+.boxes .item1, 
+.boxes .item2, 
+.boxes .item3 {
+    width: 100%;
+   margin: 0%;
+  
+   margin-left:50px;
+    padding: 15px;
+}
+
+.boxes h5 {
+    color: navy;
+}
+
+
+.copy p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    text-wrap: nowrap;
+ 
+}
+
+hr {
+    border: 2px solid navy;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+   
+    top: 20px;
+}
+
